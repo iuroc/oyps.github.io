@@ -2,7 +2,7 @@
 layout: 
 title: 使用 Github 和 Hexo，创建你的免费博客
 date: 2023-04-12 00:46:39
-tags: Hexo,Github Pages,建站
+tags: Hexo, Github Pages, 建站
 ---
 
 ## 安装 Hexo 和创建网站
@@ -28,6 +28,5 @@ deploy:
 
 ```bash
 npm install hexo-deployer-git # 安装 Git 部署工具
-npx hexo generate # 编译网站
-npx hexo deploy # 部署网站，会自动执行 Git 提交
+npx hexo deploy --generate # 编译并提交网站
 ```
